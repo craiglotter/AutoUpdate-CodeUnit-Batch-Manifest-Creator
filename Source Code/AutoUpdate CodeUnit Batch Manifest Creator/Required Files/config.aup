@@ -1,0 +1,3 @@
+APPLICATION_NAME=AutoUpdate CodeUnit Batch Manifest Creator
+EXECUTABLE=AutoUpdate CodeUnit Batch Manifest Creator.exe
+MANIFEST=http://www.commerce.uct.ac.za/Services/CodeUnit/AutoUpdate/AutoUpdate CodeUnit Batch Manifest Creator/manifest.xml
