@@ -1,4 +1,27 @@
 AutoUpdate-CodeUnit-Batch-Manifest-Creator
 ==========================================
 
-AutoUpdate Manifest Creator is an application that generates the XML manifests and creates the zip archives for the CodeUnit AutoUpdate framework. AutoUpdate CodeUnit Batch Manifest Creator is a specialised application that basically applies AutoUpdate Manifest Creator to all my Work Projects, thus automatically generating all my manifests and download folders for me. Created by Craig Lotter, June 2007 | Project Details:  Coded in Visual Basic .NET using Visual Studio .NET 2005 Implements concepts such as threading and file manipulation. Level of Complexity: simple
+AutoUpdate Manifest Creator is an application that generates the XML manifests and creates the zip archives for the CodeUnit AutoUpdate framework. AutoUpdate CodeUnit Batch Manifest Creator is a specialised application that basically applies AutoUpdate Manifest Creator to all my Work Projects, thus automatically generating all my manifests and download folders for me.
+
+(Note that you can specify which folders to apply AutoManifest Creator to)
+
+The Application works by applying AutoUpdate Manifest Creator to each project folder via a command line call and then moving all the generated manifest folders to a specified location for easy extraction.
+
+Created by Craig Lotter, June 2007
+
+*********************************
+
+Project Details:
+
+Coded in Visual Basic .NET using Visual Studio .NET 2005
+Implements concepts such as threading and file manipulation.
+Level of Complexity: simple
+
+*********************************
+
+Update 20071030.02:
+
+- Now allows you to select which projects to generate a manifest for
+- Now uses config.sav text file instead of Microsoft's Settings framework
+- Reports job cancellation and completion correctly now
+- Fixed Manifest Creation Save Location dialog type from SaveFileDialog to FolderBrowserDialog
